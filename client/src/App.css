@@ -6,13 +6,17 @@
   --color-bgColor2: #65B891;
   --color-accentColor: #4E878C;
   --color-borderColor: #93E5AB;
+  --color-borderColor2: #65B891;
 }
 
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+}
+
+* {
+  font-family: courier;
 }
 
 .logo {
