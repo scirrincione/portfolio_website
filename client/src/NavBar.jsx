@@ -15,7 +15,7 @@ function NavBar() {
         { pathname: 'https://www.linkedin.com/in/sofia-cirrincione-63b651223/', text: "Linkedin" },
     ]
     const classNames = {
-        NavLink: " font-bold p-1 pr-5"
+        NavLink: "font-bold p-1 mr-5"
     }
 
     return (
