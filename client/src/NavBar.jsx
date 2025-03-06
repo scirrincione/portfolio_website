@@ -22,7 +22,7 @@ function NavBar() {
 
     return (
         <div className="w-full">
-            <div className="absolute top-0 left-0 bg-bgColor2 flex p-15 justify-between items-center mb-8 w-full shrink border-b-5 border-borderColor">
+            <div className="fixed top-0 left-0 bg-bgColor2 flex pt-15 pb-15 justify-between items-center mb-8 w-full shrink border-b-5 border-borderColor">
                 <div className="flex items-center space-x-4">
                     <nav>
                         <ul style={{ listStyleType: 'none' }}>
