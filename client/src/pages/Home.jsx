@@ -8,8 +8,8 @@ function Home() {
 
   return (
     <>
-        <div className="bg-bgColor flex flex-col rounded border-5 border-borderColor border-rounded">
-          <header className=" text-left bg-bgColor2 flex justify-between items-center border-b-5 border-borderColor pr-4">
+        <div className="bg-bgColor flex flex-wrap rounded border-5 border-borderColor border-rounded">
+          <header className="w-full text-left bg-bgColor2 flex justify-between items-center border-b-5 border-borderColor pr-4">
             <img src={profile} alt="Profile" className="h-40 border-r-5 border-borderColor"/>
             <h1 className="text-3xl font-bold">Sofia Cirrincione</h1>
             <div className="text-right">
