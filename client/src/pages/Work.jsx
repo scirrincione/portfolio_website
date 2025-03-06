@@ -62,7 +62,7 @@ function Work() {
             <h1 className="text-3xl font-bold">Education</h1>
           </header>
           <div className = "text-center justify-between flex flex-wrap">
-            <div className = "pl-3 pr-3 pt-2 font-extrabold underline">
+            <div className = "pl-3 pr-3 pt-4 font-extrabold underline">
                 Bachelors of Science in Computer Science
             </div>
             <div className = "pl-3 pr-3 pt-2">
@@ -78,7 +78,7 @@ function Work() {
             </div>
           </div>
 
-          <div className = "text-center justify-between flex flex-wrap">
+          <div className = "text-center justify-between flex flex-wrap pt-5">
             <div className = "pl-3 pr-3 pt-2 font-extrabold underline">
                 Masters of Science in Computer Science
             </div>
@@ -90,7 +90,7 @@ function Work() {
             <div className = "pl-6 pr-3">
                 University of Minnesota
             </div>
-            <div className = "pl-6 pr-3">
+            <div className = "pl-6 pr-3 pb-8">
                 GPA: 3.5
             </div>
           </div>
