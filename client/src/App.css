@@ -58,3 +58,8 @@ body {
 .read-the-docs {
   color: #888;
 }
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
