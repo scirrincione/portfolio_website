@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import '../App.css'
 import NavBar from '../NavBar.jsx'
-import profile from '../assets/linked_in_profile.jpg'
+import profile from '../assets/Headshot.jpeg'
 
 function Home() {
   //const [count, setCount] = useState(0)
@@ -13,7 +13,7 @@ function Home() {
             <img src={profile} alt="Profile" className="h-40 border-r-5 border-borderColor"/>
             <h1 className="text-3xl font-bold">Sofia Cirrincione</h1>
             <div className="text-right">
-              <h1 className="text-l ">847-284-8385</h1>
+              
               <h1 className="text-l">sccirrincione@gmail.com</h1>
             </div>
           </header>
