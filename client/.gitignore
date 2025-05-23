@@ -26,5 +26,6 @@ dist-ssr
 # build folder
 build
 
-# .env
+
+# environment variables
 .env
