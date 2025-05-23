@@ -6,6 +6,8 @@ import sn1 from '../assets/student_need1.png'
 import sn2 from '../assets/student_need2.png'
 import sn3 from '../assets/student_need3.png'
 import sn4 from '../assets/student_need4.png'
+import {Document, Page} from 'react-pdf'
+import researchPaper from '../assets/Supportive_but_Sparse__Cross_Cultural_Responses_to_Mental_Health_Disclosure_on_Social_Media___CSCW_2025_Poster.pdf'
 
 function Projects() {
   //const [count, setCount] = useState(0)
@@ -74,13 +76,16 @@ function Projects() {
                                 Github
                             </a></header>
             <p className="p-2 text-l">
-              I am currently working on a research project with a professor at the University of Minnesota. The goal of this project is 
-              to analyze how people respond to distressing tweets on social media and how those responses vary across cultures. We are 
-              using a dataset of tweets from a previous project that are classified as being from depressed users. We are using datasets 
-              of tweets from several different countries (Australia, India, Nigeria, Philippines, South Africa, UK, United States) and 
-              scraping the metadata of the tweets as well as the responses to the tweets and their metadata. So far I have been working 
-              on data collection and I am beginning the analysis portion of the project.
+              I worked on a research project while being advised by Stevie Chancellor at the University of Minnesota. The goal of this project was
+              to analyze how people respond to distressing tweets on social media and how those responses vary across cultures. We used datasets of 
+              tweets classified as genuine disclosures of mental health struggles as well as control datasets that were not classified as disclosure 
+              posts from seven different countries (Australia, US, UK, India, Nigeria, South Africa, Philippines) as well as a global set. We scraped
+              the metadata and content of these tweets and analyzed that data with sentiment analysis, topic modeling, significance testing, and qualitative
+              analysis to find trends within the data. This project culminated in the below research paper.
             </p>
+            <Document file={researchPaper}>
+                
+            </Document>
             
           </div>
           
