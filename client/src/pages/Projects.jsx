@@ -6,8 +6,9 @@ import sn1 from '../assets/student_need1.png'
 import sn2 from '../assets/student_need2.png'
 import sn3 from '../assets/student_need3.png'
 import sn4 from '../assets/student_need4.png'
-import {Document, Page} from 'react-pdf'
-import researchPaper from '../assets/Supportive_but_Sparse__Cross_Cultural_Responses_to_Mental_Health_Disclosure_on_Social_Media___CSCW_2025_Poster.pdf'
+import {Document, Page, pdfjs} from 'react-pdf'
+import researchPaper from '/Supportive_but_Sparse__Cross_Cultural_Responses_to_Mental_Health_Disclosure_on_Social_Media___CSCW_2025_Poster.pdf'
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js//pdf.worker.min.js`;
 
 function Projects() {
   //const [count, setCount] = useState(0)
@@ -81,11 +82,10 @@ function Projects() {
               tweets classified as genuine disclosures of mental health struggles as well as control datasets that were not classified as disclosure 
               posts from seven different countries (Australia, US, UK, India, Nigeria, South Africa, Philippines) as well as a global set. We scraped
               the metadata and content of these tweets and analyzed that data with sentiment analysis, topic modeling, significance testing, and qualitative
-              analysis to find trends within the data. This project culminated in the below research paper.
+              analysis to find trends within the data. This project culminated in the below research paper. We were unfortunately unable to submit the 
+              paper due to a lack of data.
             </p>
-            <Document file={researchPaper}>
-                
-            </Document>
+            <iframe src='/portfolio_website/Supportive_but_Sparse__Cross_Cultural_Responses_to_Mental_Health_Disclosure_on_Social_Media___CSCW_2025_Poster.pdf' width="100%" height="500px"/>
             
           </div>
           
