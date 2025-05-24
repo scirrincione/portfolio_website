@@ -20,7 +20,7 @@ function Home() {
           <div className="p-4 ">
             <header className="text-2xl font-bold text-left p-2 border-borderColor2 border-b-2">About</header>
             <p className="pt-2 pl-1 text-l">
-            My name is Sofia, I hold a bachelor's degree in computer science and am currently pursuing a research master's in the field. 
+            My name is Sofia, I hold a bachelor's degree and Master's degree in computer science. 
             My expertise lies in software engineering, and I also enjoy game development, which I was inspired to 
             explore due to my love for gaming. <br /><br />
             
