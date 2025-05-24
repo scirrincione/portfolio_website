@@ -17,7 +17,8 @@ function NavBar() {
         { pathname: 'https://github.com/scirrincione/portfolio_website', text: "Website Repo"}
     ]
     const classNames = {
-        NavLink: "font-bold p-1 mr-5"
+        NavLink: "font-bold p-1 mr-5",
+        externalLink: "font-bold p-1 mr-5 border-b-2 rounded"
     }
 
     return (
@@ -48,7 +49,7 @@ function NavBar() {
                             href={linkData.pathname}
                             target="_blank"
                             rel="noopenter noreferrer"
-                            className={classNames.NavLink}>
+                            className={classNames.externalLink}>
                                 {linkData.text}
                             </a>
                         )
